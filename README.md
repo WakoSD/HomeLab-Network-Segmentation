@@ -235,8 +235,8 @@ Testing showed that the AirPort Extreme created a separate private subnet and es
 
 The observed communication behavior was:
 
-|Traffic|Direction|Result|
-|-------|---------|------|
+|Traffic Direction|Result|
+|-----------------|------|
 |Laboratory → Internet|	Allowed|
 |Laboratory → Home Router|	Allowed|
 |Laboratory → Some Home Devices|	Possible depending on host firewall configuration|

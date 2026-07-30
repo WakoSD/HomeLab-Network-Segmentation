@@ -199,7 +199,7 @@ Result:
 Interpretation:
 The laboratory network can communicate with the upstream home router because the AirPort WAN interface is connected to the main network.
 
-### 8.1 Laboratory Network ➔ Home Router
+### 8.2 Laboratory Network ➔ Home Network
 Testing communication from the laboratory laptop to devices inside the home network showed mixed results.
 
 Example:

@@ -186,7 +186,7 @@ This confirmed:
 - NAT functionality.
 - Internet connectivity.
 
-## 8. Netowrk Communication Testing
+## 8. Network Communication Testing
 ### 8.1 Laboratory Network ➔ Home Router
 From the laboratory laptop in CMD:
 ```
@@ -194,7 +194,7 @@ ping 192.168.100.1
 ```
 Result:
 
-**Successful response**
+✅ **Successful response**
 
 Interpretation:
 The laboratory network can communicate with the upstream home router because the AirPort WAN interface is connected to the main network.
@@ -206,7 +206,7 @@ Example:
 ```
 ping 192.168.100.9
 ```
-Results depended on the target device configuration.
+⚠️ Results depended on the target device configuration.
 Some devices did not respond because host-based firewalls can block this traffic.
 **Therefore, ping alone was not considered a complete measure of network isolation.**
 
@@ -217,7 +217,7 @@ ping 192.168.200.x
 ```
 Result:
 
-**No response**
+❌ **No response**
 
 Explanation:
 The laboratory network is located behind the AirPort router and uses a separate private subnet:
@@ -249,11 +249,11 @@ The laboratory successfully demonstrated the creation of a secondary private net
 
 The implementation provided:
 
-✅ Separate IPv4 addressing space.
-✅ Independent DHCP management.
-✅ NAT-based network boundary.
-✅ Dedicated wireless environment.
-✅ Internet access for laboratory devices.
+- ✅ Separate IPv4 addressing space.
+- ✅ Independent DHCP management.
+- ✅ NAT-based network boundary.
+- ✅ Dedicated wireless environment.
+- ✅ Internet access for laboratory devices.
 
 This laboratory established a foundation for exploring more advanced networking concepts in the future, including:
 

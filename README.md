@@ -20,10 +20,11 @@ The laboratory network was intended to function as a separate private environmen
 
 ## 2. Used infraestructure
 | Device | Function |
+|--------|----------|
 | Main Router | Provides Internet access and main network |
-| Apple Airport Extreme | Secondary Router for Lab network |
-| Lab PC1 | Client inside test enviroment |
-| Personal Desktop PC | Device used for initial configuration |
+| Apple AirPort Extreme | Secondary router for the lab network |
+| Lab PC1 | Client inside the test environment |
+| Personal Desktop PC | Device used for the initial configuration |
 
 ## 3. Initial network state
 Before creating the laboratory environment, the existing home network configuration was identified.
@@ -176,6 +177,7 @@ This confirmed:
 The following devices successfully accessed the Internet through WakoHomeLab:
 
 |Device	|Result |
+|--------|----------|
 |Laptop	|Successful |
 |iPhone	|Successful |
 
@@ -234,6 +236,7 @@ Testing showed that the AirPort Extreme created a separate private subnet and es
 The observed communication behavior was:
 
 |Traffic |Direction	|Result|
+|--------|----------|
 |Laboratory → Internet|	Allowed|
 |Laboratory → Home Router|	Allowed|
 |Laboratory → Some Home Devices|	Possible depending on host firewall configuration|
